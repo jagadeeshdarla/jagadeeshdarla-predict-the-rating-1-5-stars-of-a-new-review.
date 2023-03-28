@@ -1,0 +1,20 @@
+Problem statement: Given a dataset of customer reviews on a product, predict the rating (1-5 stars) of a new review.
+
+Solution:
+We will build a multi-class classification model using a Random Forest algorithm to predict the rating (1-5 stars) of a customer review. We will use the "Amazon Fine Food Reviews" dataset from Kaggle, which contains reviews of food products sold on Amazon.
+
+Steps:
+
+Load the dataset and split it into training and testing sets.
+
+Perform exploratory data analysis (EDA) to understand the distribution of ratings and their features.
+
+Preprocess the data by performing text cleaning, tokenization, and vectorization using techniques such as TF-IDF.
+
+Train a Random Forest model on the training data.
+
+Evaluate the performance of the model on the testing data by calculating various metrics such as accuracy, precision, recall, and F1-score.
+
+Tune hyperparameters of the model using techniques such as grid search or randomized search.
+
+Save the model for future use.
